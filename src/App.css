@@ -1,32 +1,131 @@
 .App {
   text-align: center;
+  font-family: "Odin Rounded", Times, serif;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 30vmin;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-header { 
+  background-image: url("geometry_@2X.png");
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(48px + 2vmin);
+  color: #3d9ae2;
 }
 
-.App-link {
-  color: #61dafb;
+.button {
+    background-color: #bddbff;
+    border: 2px solid #3d9ae2;
+    border-radius: 80px;
+    color: #3d9ae2;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Odin Rounded", Times, serif;
+    font-size: 60px;
+    margin: 2px 1px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 950px;
+    right: 280px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button1 {
+  background-color: white;
+  color: #3d9ae2;
+  border: none;
+  position: fixed;
+  right: 5px;
 }
+
+.button2 {
+  background-color: white;
+  border: 2px solid #ededed;
+  border-radius: 80px;
+  font-size: 36px;
+  color: #707070;
+  position: fixed;
+  bottom: 280px;
+  right: 950px;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: #bddbff;
+    border-radius: 8px;
+    float: center;
+    padding: 8px 16px;
+    margin: 0 4px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 2px solid #bddbff;
+    font-family: "Odin Rounded", Times, serif;
+    font-size: 22px;
+    
+    }
+
+.pagination a.active {
+    color: #3d9ae2;
+    border: 2px solid #3d9ae2;
+}
+
+.pagination a:hover:not(.active) {background-color: none;}
+
+.imgUser {
+    position: fixed;
+    bottom: 950px;
+    right: 1830px;
+}
+
+.imgSetting {
+    position: fixed;
+    bottom: 950px;
+    right: 1270px;
+}
+
+.email {
+    font-size: 48px;
+    font-family: "Odin Rounded", Times, serif;
+    color: #3d9ae2;
+    position: fixed;
+    bottom: 950px;
+    right: 1330px;
+    
+}
+
+.header1 {
+  font-size: 100px;
+  color: #3d9ae2;
+}
+
+.by {
+  font-size: 48px;
+  color: #707070;
+}
+
+.box {
+
+    background-color: #FFFFFF;
+    font-size: 36px;
+    color: #bddbff;
+    font-family: "Odin Rounded", Times, serif;
+    text-align: left;
+    width: 900px;
+    border: 2px solid #ededed;
+    border-radius: 50px;
+    padding: 40px;
+    margin: 40px;
+    position: fixed;
+    bottom: 200px;
+}
+
